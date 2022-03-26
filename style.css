@@ -184,6 +184,7 @@ span {
 .titre1 {
     color: #22577A;
     font-weight: 400;
+    font-size: 50px;
 }
 .logo {
     width: 220px;
@@ -819,5 +820,9 @@ span {
 .log{
     padding: 20px;
     text-decoration: none;
-    
+    background-color: #38A3A5;
+    color: #FFFFFF;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 }
