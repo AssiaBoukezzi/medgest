@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patients</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="global-container-patient">
+        <nav class="side-nav">
+            <a href="./profile.html" class="bloc-link">
+                <img src="svg/user.svg">
+                <span class="nav-links">Profile</span>
+            </a>
+            <a href="./index.html" class="bloc-link">
+                <img src="svg/bar-chart-2.svg">
+                <span class="nav-links">Overview</span>
+            </a>
+            <a href="#" class="bloc-link pat">
+                <img src="svg/clipboard.svg">
+                <span class="nav-links">Patients</span>
+            </a>
+            <a href="./Schedule.html" class="bloc-link">
+                <img src="svg/clock.svg">
+                <span class="nav-links">Schedule</span>
+            </a>
+            <a href="#" class="bloc-link">
+                <img src="svg/setting.svg">
+                <span class="nav-links">Setting</span>
+            </a>
+        </nav>
+        <div class="list">
+            <h1 class="titre-list">Patients list</h1>
+            <div class="table">
+                <p class="table-title">Patient</p>
+                <p class="table-title">Contact</p>
+                <p class="table-title">Age</p> 
+                <p class="table-title">Next Appointment</p> 
+            </div>
+    
+            <div class="table-results">
+                <div class="table-item">
+                    <p class="Patient">Bendakir Sara</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Age">23</p>
+                    <p class="Apppoitment">21/03/2022</p>
+                </div>
+                <div class="table-item">
+                    <p class="Patient">Yamani marwa</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Age">27</p>
+                    <p class="Apppoitment">21/03/2022</p>
+                </div>
+                <div class="table-item">
+                    <p class="Patient">Bourbia abeer</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Age">27</p>
+                    <p class="Apppoitment">21/03/2022</p>
+                </div>
+                <div class="table-item">
+                    <p class="Patient">Boukezzi Assia</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Age">22</p>
+                    <p class="Apppoitment">21/03/2022</p>
+                </div>
+                <div class="table-item">
+                    <p class="Patient">Chikouche Lyna</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Age">23</p>
+                    <p class="Apppoitment">21/03/2022</p>
+                </div>
+                <div class="table-item">
+                    <p class="Patient">Azizi Walid</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Age">28</p>
+                    <p class="Apppoitment">21/03/2022</p>
+                </div>
+                <div class="table-item">
+                    <p class="Patient">Boudchicha Leyna</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Age">23</p>
+                    <p class="Apppoitment">21/03/2022</p>
+                </div>
+                <div class="ajouter modal-trigger">+</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-container">
+        <div>
+            <div class="overlay modal-trigger"></div>
+            <div class="modal">
+                <button class="close-modal modal-trigger">X</button>
+                <h1>Add a prescription</h1>
+                <div class="form">
+                    <input type="text" id="name" placeholder="Full name">
+                    <input type="text" id="age" placeholder="Age">
+                    <input type="text" id="height" placeholder="Height">
+                    <input type="text" id="ssn" placeholder="SSN">
+                    <input type="text" id="blood" placeholder="Blood">
+                    <input type="text" id="weight" placeholder="Weight">
+                </div>
+                <button class="confirm-modal modal-trigger">Confirm</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+<script src="app.js"></script>
+</body>
+</html>

@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Overview</title>
 </head>
 <body>
     <div class="global-container">
         <nav class="side-nav">
-            <a href="#" class="bloc-link">
+            <a href="./profile.html" class="bloc-link">
                 <img src="svg/user.svg">
                 <span class="nav-links">Profile</span>
             </a>
-            <a href="#" class="bloc-link">
+            <a href="#" class="bloc-link over">
                 <img src="svg/bar-chart-2.svg">
                 <span class="nav-links">Overview</span>
             </a>
-            <a href="#" class="bloc-link">
+            <a href="./Patients.html" class="bloc-link">
                 <img src="svg/clipboard.svg">
                 <span class="nav-links">Patients</span>
             </a>
-            <a href="#" class="bloc-link">
+            <a href="./Schedule.html" class="bloc-link">
                 <img src="svg/clock.svg">
                 <span class="nav-links">Schedule</span>
             </a>
@@ -31,24 +31,25 @@
                 <span class="nav-links">Setting</span>
             </a>
         </nav>
-        <main>
+        <div class="main">
             <h1>Welcome back Mr Stone !</h1>
             <div class="btns">
-                <button>
+                <button class="btn">
                     <img src="svg/clock.svg">
                     <p>Today's appointments</p>
                 </button>
-                <button>
+                <button class="btn">
                     <img src="svg/plus.svg">
                     <p>Add patient</p>
                 </button>
-                <button>
+                <button class="btn">
                     <img src="svg/eye.svg">
                     <p>See patients</p>
                 </button>
             </div>
             <h2>This week overview</h2>
-        </main>
+            <img src="svg/graph.svg" class="graph">
+        </div>
     </div>
     <script src="app.js"></script>
 </body>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="global-container-schedule">
+        <nav class="side-nav">
+            <a href="./profile.html" class="bloc-link">
+                <img src="svg/user.svg">
+                <span class="nav-links">Profile</span>
+            </a>
+            <a href="./index.html" class="bloc-link">
+                <img src="svg/bar-chart-2.svg">
+                <span class="nav-links">Overview</span>
+            </a>
+            <a href="./Patients.html" class="bloc-link">
+                <img src="svg/clipboard.svg">
+                <span class="nav-links">Patients</span>
+            </a>
+            <a href="#" class="bloc-link sch">
+                <img src="svg/clock.svg">
+                <span class="nav-links ">Schedule</span>
+            </a>
+            <a href="#" class="bloc-link">
+                <img src="svg/setting.svg">
+                <span class="nav-links">Setting</span>
+            </a>
+        </nav>
+
+        <div class="main-schedule">
+            <h1>Today's appointments</h1>
+            <div class="date">
+                <button class="btn-dat btn-date"><span>26</span> </br>Mrs</button>
+                <button class="btn-date"><span>27</span> </br>Mrs</button>
+                <button class="btn-date"><span>28</span> </br>Mrs</button>
+                <button class="btn-date"><span>29</span> </br>Mrs</button>
+                <button class="btn-date"><span>30</span> </br>Mrs</button>
+                <button class="btn-date"><span>31</span> </br>Mrs</button>
+            </div>
+            <div class="table">
+                <p class="table-title">Patient</p>
+                <p class="table-title">Contact</p>
+                <p class="table-title">Appointment</p> 
+                <p class="table-title">Status</p> 
+            </div>
+    
+            <div class="table-results modal-trigger">
+                <div class="table-item ">
+                    <p class="Patient">Bendakir Sara</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Apppoitment">08:20</p>
+                    <p class="Status s1">Done</p>
+                </div>
+                <div class="table-item">
+                    <p class="Patient">Yamani marwa</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Apppoitment">09:10</p>
+                    <p class="Status s2">Done</p>
+                </div>
+                <div class="table-item">
+                    <p class="Patient">Bourbia abeer</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Apppoitment">11:20</p>
+                    <p class="Status s3">Canceled</p>
+                </div>
+                <div class="table-item">
+                    <p class="Patient">Boukezzi Assia</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Apppoitment">12:20</p>
+                    <p class="Status s4">Ongoing</p>
+                </div>
+                <div class="table-item">
+                    <p class="Patient">Chikouche Lyna</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Apppoitment">14:40</p>
+                    <p class="Status s5">Waiting</p>
+                </div>
+                <div class="table-item">
+                    <p class="Patient">Azizi Walid</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Apppoitment">15:20</p>
+                    <p class="Status s6">Waiting</p>
+                </div>
+                <div class="table-item">
+                    <p class="Patient">Boudchicha Leyna</p>
+                    <p class="Contact">0789805463</p>
+                    <p class="Apppoitment">16:00</p>
+                    <p class="Status s7">Canceled</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-container ">
+        <div>
+            <div class="overlay modal-trigger"></div>
+            <div class="modal">
+                <button class="close-modal modal-trigger">X</button>
+                <h1>Appointment's information</h1>
+                <div class="form">
+                    <input type="text" id="Patient" placeholder="Patient">
+                    <input type="text" id="heure" placeholder="Date and hour">
+                    <input type="text" id="status" placeholder="Status">
+                </div>
+                <button class="prescription">
+                    <img src="svg/clipboard.svg">
+                    <p class="modal-trigger assia-btn">Add a prescription</p>
+                </button>
+                <button class="confirm-modal modal-trigger">Confirm</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal-container2 ">
+        <div>
+            <div class="overlay modal-trigger"></div>
+            <div class="modal">
+                <button class="close-modal modal-trigger">X</button>
+                <h1>Appointment's information</h1>
+                <div class="li">
+                    <div class="d">Drugs</div>
+                    <div class="d">Dosage per day</div>
+                    <div class="d">Duration</div>
+                </div>
+                
+                <div class="ligne"></div>
+                <div class="ligne"></div>
+                <div class="ligne"></div>
+                <button class="confirm-modal modal-trigger">Confirm</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
